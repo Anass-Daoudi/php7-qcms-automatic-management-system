@@ -1,0 +1,155 @@
+@font-face{
+    font-family:'ballpark';
+    src:url('polices/ballpark.ttf');
+}
+@font-face{
+    font-family:'dayrom';
+    src:url('polices/dayrom.ttf');
+}
+
+/*
+.divi{
+    background-color:cadetblue;
+    color:aliceblue;
+    width:23.5%;
+    height: 50px;
+    font-family: dayrom;
+    font-size: 20px;
+    display: inline-block;
+    padding:6px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+.divi:hover{
+    height:50px;
+    position: relative;
+    top:10px;
+}
+#menu{
+    width: 100%;
+}
+#pulled{
+    display: none;
+    
+    width:23.5%;
+    height: 50px;
+    font-family: dayrom;
+    font-size: 20px;
+    padding:6px;
+
+    text-align: center;
+    float: right;
+    position: relative;
+    right:14px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:cadetblue;
+  
+}
+a{
+      color:aliceblue;
+    
+}
+#logoutg{
+    display: inline-block;
+}
+*/
+
+#line1{
+    background-color: #EEE;
+    position: absolute;
+    right: 0px;
+    left:0px;
+    top:10px;
+}
+
+#menu{
+    
+    width: 80%;
+    height: 40px;
+    /*border:1px solid black;*/
+    margin: auto;
+    display: flex;
+    padding-bottom: 20px;
+   /* margin-top: 10px;*/
+   
+
+}
+
+
+.divi{
+    font-family: dayrom;
+    font-size: 20px;
+     width: 25%;
+     height: 40px;
+
+    text-align: center;
+    padding-top: 20px;
+
+    color:#78909c;
+
+
+}
+.inputProf{
+    width: 100%;
+    font-family: dayrom;
+    font-size: 20px;
+    height: 40px;
+    text-align: center;
+    color:#78909c;
+    position: relative;
+  /*  bottom: 20px;*/
+    border:none;
+/*    vertical-align:middle;*/
+    background-color: #EEE;
+    outline: none;
+    padding-bottom: 20px;
+    
+
+    
+}
+.inputProf:hover{
+     background-color: dodgerblue;
+    color:aliceblue;
+}
+.divi:hover{
+    background-color: dodgerblue;
+    color:aliceblue;
+}
+
+#k{
+font-family: dayrom;
+    font-size: 20px;
+    width: 273px;
+     height: 40px;
+    display: none;
+    text-align: center;
+    padding-top: 20px;
+     background-color: #EEE;
+    color:#78909c;
+    float:right;
+    position: relative;
+    right:129px;
+    top:60px;
+}
+#display0{
+    position: relative;
+    top:70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

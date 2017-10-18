@@ -1,0 +1,107 @@
+/*#conteneur_authentification{
+    margin:0; 
+   padding:10px; 
+   background:linear-gradient(to bottom,#DDDDDD,#FFFFFF); 
+    position: relative;
+    top:60px;
+}*/
+
+.fildset_authentification{
+    width: 400px;
+    /*height: 300px;*/
+    margin: auto;
+    margin-top: 100px;
+    border:2px dashed #F90;
+}
+
+.input_field{
+    width: 200px;
+   outline:none; 
+   border:solid 1px #AAAAAA; 
+   padding:10px; 
+   border-radius:4px; 
+   font-family:verdana, arial, sans-serif; 
+}
+.input_class{
+    display:inline-block; 
+    width:300px; 
+    padding:6px;
+    margin-left: 80px;
+}
+input:focus{
+     background-color: #EEE;
+
+}
+input[type="submit"].input_field{ 
+   background-color:#EE6600; 
+   color:#FFFFFF; 
+   padding:6px 20px 6px 20px; 
+   border:none; 
+   cursor:pointer; 
+   padding:10px; 
+   width:160px; 
+    position: relative;
+    right:50px;
+    margin-top: 20px;
+    
+} 
+fieldset{
+   margin:10px; 
+   border:none; 
+   background-color:#FFFFFF; 
+   border-radius:10px; 
+   padding:20px; 
+
+    
+}
+legend{
+    font-family:verdana, arial, sans-serif; 
+   font-size:20pt; 
+   font-weight:bold; 
+   color:#FFFFFF; 
+   margin:10px; 
+   padding:10px 20px 10px 20px; 
+   background-color:#AAAAAA; 
+   border-radius:4px; 
+    
+}
+
+#line1{
+    background-color: #EEE;
+    position: absolute;
+    right: 0px;
+    left:0px;
+    top:10px;
+}
+
+#menu{
+    
+    width: 80%;
+    height: 40px;
+    /*border:1px solid black;*/
+    margin: auto;
+    display: flex;
+    padding-bottom: 20px;
+   /* margin-top: 10px;*/
+   
+
+}
+
+
+.divi{
+    font-family: dayrom;
+    font-size: 20px;
+     width: 25%;
+     height: 40px;
+
+    text-align: center;
+    padding-top: 20px;
+
+    color:#78909c;
+
+
+}
+.divi:hover{
+    background-color: dodgerblue;
+    color:aliceblue;
+}

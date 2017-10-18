@@ -1,0 +1,174 @@
+body {
+	margin: 0px;
+}
+
+#conteneur {
+	margin: 0;
+	padding: 10px;
+    position: absolute;
+    background-color: #FFF;
+    left: 0px;
+    right: 0px;
+    top:60px;
+}
+
+.global_bloc {
+	display: flex;
+}
+
+.left_bloc {
+	width: 50%;
+}
+
+.right_bloc {
+	width: 50%;
+}
+
+select {
+	outline: none;
+	border: solid 1px #AAAAAA;
+	padding: 10px;
+	border-radius: 4px;
+	font-family: verdana, arial, sans-serif;
+	margin-left: 6px;
+	margin-bottom: 5px;
+	margin-top: 4px;
+	display: inline-block;
+	width: 200px;
+	height: 40px;
+	padding: 6px;
+}
+
+.input_field {
+	outline: none;
+	border: solid 1px #AAAAAA;
+	padding: 10px;
+	border-radius: 4px;
+	font-family: verdana, arial, sans-serif;
+}
+
+.input_class {
+	display: inline-block;
+	width: 200px;
+	padding: 6px;
+}
+
+.label_class {
+	display: inline-block;
+	width: 240px;
+	font-family: verdana, arial, sans-serif;
+	font-size: 10pt;
+	padding: 10px;
+}
+
+input:focus {
+	background-color: #EEE;
+}
+
+input[type="submit"].input_field {
+	background-color: #FF6600;
+	color: #FFFFFF;
+	padding: 6px 20px 6px 20px;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	width: 160px;
+	margin-left: 264px;
+	margin-top: 20px;
+}
+
+fieldset {
+	margin: 10px;
+	border: 2px dashed #F90;
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+legend {
+	font-family: verdana, arial, sans-serif;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	margin: 10px;
+	padding: 10px 20px 10px 20px;
+	background-color: #AAAAAA;
+	border-radius: 4px;
+}
+
+/*#valid{
+    width: 200px;
+    padding: 5px;
+    height: 50px;
+   background-color:darkcyan;
+}*/
+#valid:hover {
+	background-color: aqua;
+}
+
+#error {
+	color: red;
+}
+
+/*#field2{
+    position: relative;
+    top:200px;
+}*/
+/*@keyframes turn {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}*/
+/*img{
+    position: relative;
+    left: 200px;
+    top:20px;
+    animation: turn 30s linear infinite;
+}
+img:hover{
+   
+    animation: turn 1s linear infinite;
+}*/
+
+#line1{
+    background-color: #EEE;
+    position: absolute;
+    right: 0px;
+    left:0px;
+    top:10px;
+}
+
+#menu{
+    
+    width: 80%;
+    height: 40px;
+    /*border:1px solid black;*/
+    margin: auto;
+    display: flex;
+    padding-bottom: 20px;
+   /* margin-top: 10px;*/
+   
+
+}
+
+
+.divi{
+    font-family: dayrom;
+    font-size: 20px;
+     width: 25%;
+     height: 40px;
+
+    text-align: center;
+    padding-top: 20px;
+
+    color:#78909c;
+
+
+}
+.divi:hover{
+    background-color: dodgerblue;
+    color:aliceblue;
+}

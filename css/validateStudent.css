@@ -1,0 +1,31 @@
+#qcmYear{
+    
+    padding: 6px 20px 6px 20px;
+	width: 400px;
+	outline: none;
+	border-radius: 4px;
+	font-family: verdana, arial, sans-serif;
+	font-size: 20px;
+	margin: 4px;
+}
+#getStudent{
+   /*margin-left: 100px;*/
+	margin-top: 20px;
+	background-color: #EE6600;
+	color: #FFFFFF;
+	padding: 6px 20px 6px 20px;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	width: 200px;
+	outline: none;
+	/* border:solid 1px #AAAAAA;*/
+	padding: 10px;
+	border-radius: 4px;
+	font-family: verdana, arial, sans-serif;
+	font-size: 20px;
+}
+#div1{
+    margin-top: 100px;
+    text-align: center;
+}
